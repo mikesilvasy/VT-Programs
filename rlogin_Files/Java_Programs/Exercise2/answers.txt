@@ -1,0 +1,33 @@
+Mike Silvasy (silvasym)
+Exercise 2 - answers.txt
+
+2 - BUILDING SOFTWARE
+	2) /home/ugrads/majors/silvasym/node-v12.16.0/out/Release/node
+	3)
+	   - -Wl,--whole-archive: For every archive on the command line after --whole-archive, include all objects files in the archive in the link.
+	   - -Wl,--no-whole-archive: Stop the effect of the --whole-archive flag for ensuing archive files.
+	   Source: https://linux.die.net/man/1/ld
+	4) The name of the 4,000th strong global text symbol in the 'node' executable is OPENSSL_atexit.
+	5) There are 6293 local, readonly symbols that occur in the node executable.
+	6)
+	   - size --format=SysV: 39808939
+	   - ls -l: 47369232
+	   Percentage: 39808939/47369232 = 84.039%
+	7) By using the --whole-archive flags, all object files in the current archive will automatically be added to the link.  As a result, the node.js developers didn't have to
+	   add them manually, optimizing the process.
+3 - BAKING PIE
+	1) Position-Independent Executable
+	   - When ./no.pie was run, the text, data and bss maintain the same address; however, when ./pie was run, the text, data and bss addresses change.
+	   - When ./no.pie was run, the heap address was substantially smaller than when ./pie was run.
+	2) Heap based attack is made more difficult when -fpie is used.
+
+4 - LINK TIME OPTIMIZATION
+	1) objdump: lto2.o: File format not recognized
+	2) lto2: LLVM bitcode
+	3) define i64 @oddsum(i64) local_unnamed_addr #0 {
+	4) 4004c0:       b8 c4 09 00 00          mov    $0x9c4,%eax
+  	   4004c5:       c3                      retq
+  	   4004c6:       66 2e 0f 1f 84 00 00    nopw   %cs:0x0(%rax,%rax,1)
+  	   4004cd:       00 00 00
+	5) clang -O3 establishes a moderate level of optimizations (optimizations with clang -O2), while also enabling optimizations that generate large amounts of code
+	   and that take longer.  A specific example with this compiler/linker is that it takes loops and converts them to just one line of machine code.

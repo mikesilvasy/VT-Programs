@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu"
+          android:icon="@drawable/menu_button"
+          android:title="Menu"
+          app:showAsAction="ifRoom">
+
+        <menu>
+            <item android:id="@+id/profile_menu"
+                  android:title="Profile"/>
+            <item android:id="@+id/fitness_plans_menu"
+                  android:title="Fitness Plans"/>
+            <item android:id="@+id/diet_tracking_menu"
+                  android:title="Diet Tracking"/>
+        </menu>
+
+    </item>
+
+    <!--<item android:id="@+id/profile"-->
+          <!--android:title="Profile"-->
+          <!--app:showAsAction="never"/>-->
+
+    <!--<item android:id="@+id/fitness_plans"-->
+          <!--android:title="Fitness Plans"-->
+          <!--app:showAsAction="never"/>-->
+
+    <!--<item android:id="@+id/diet_tracking"-->
+          <!--android:title="Diet Tracking"-->
+          <!--app:showAsAction="never"/>-->
+</menu>

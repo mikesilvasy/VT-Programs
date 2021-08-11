@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1575850544 source:c:\users\silva\desktop\assignment4\main.cpp
+	"TicTacToe.h"
+
+1575523781 source:c:\users\silva\desktop\assignment4\board.cpp
+	"Board.h"
+	<iostream>
+
+1575850201 c:\users\silva\desktop\assignment4\board.h
+	<vector>
+
+1575850720 c:\users\silva\desktop\assignment4\tictactoe.h
+	"Board.h"
+
+1575852727 source:c:\users\silva\desktop\assignment4\tictactoe.cpp
+	"TicTacToe.h"
+	"Board.h"
+	<iostream>
+	<fstream>
+

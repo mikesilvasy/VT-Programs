@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MoviesDB</string>
+    <string name="base_url">https://api.themoviedb.org/3/</string>
+    <string name="picture_base_url">http://image.tmdb.org/t/p/w500/</string>
+    <string name="show_only_likes">Show Likes</string>
+    <string-array name = "sort_by_entries">
+        <item>Sort By: Title</item>
+        <item>Sort By: Vote</item>
+    </string-array>
+    <string name="like">Like</string>
+
+</resources>

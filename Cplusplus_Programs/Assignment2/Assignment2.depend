@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1572488827 source:c:\users\silva\desktop\assignment2\main.cpp
+	<iostream>
+	"ConfigParser.h"
+
+1572366752 c:\users\silva\desktop\assignment2\configparser.h
+	<string>
+	<vector>
+	<utility>
+	<map>
+
+1572489095 source:c:\users\silva\desktop\assignment2\configparser.cpp
+	"ConfigParser.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<algorithm>
+	<iterator>
+

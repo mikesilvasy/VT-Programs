@@ -1,0 +1,37 @@
+Thread 0xfdb91670
+
+  locals:
+
+Thread 0xfdb8a930
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.ref.ReferenceQueue.remove(J)Ljava/lang/ref/Reference; (ReferenceQueue.java:142)
+  at java.lang.ref.ReferenceQueue.remove()Ljava/lang/ref/Reference; (ReferenceQueue.java:158)
+  at java.lang.ref.Finalizer$FinalizerThread.run()V (Finalizer.java:209)
+
+  locals:
+    objectId=0xfdb8aac0, line=1
+    objectId=0xfdb8aab0, line=1
+    objectId=0xfdb8aac0, line=2
+    objectId=0xfdb8a930, line=3
+    objectId=0xfdb8aae0, line=3
+
+Thread 0xfdb94e58
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.Object.wait()V (Object.java:502)
+  at java.lang.ref.Reference$ReferenceHandler.run()V (Reference.java:157)
+
+  locals:
+    objectId=0xfdb94fd0, line=1
+    objectId=0xfdb94e58, line=2
+    objectId=0xfdb94fd0, line=2
+
+Thread 0xfdbabc28
+  at java.lang.OutOfMemoryError.<init>()V (OutOfMemoryError.java:48)
+  at OOM$ListCell.<init>()V (OOM.java:7)
+  at OOM.main([Ljava/lang/String;)V (OOM.java:15)
+
+  locals:
+    objectId=0xfeaffd20, line=1
+    objectId=0xfdbabb50, line=2
+    objectId=0xfeaff8e0, line=2
+

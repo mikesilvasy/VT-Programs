@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "481512658030",
+    "firebase_url": "https://finalprojectcs3714.firebaseio.com",
+    "project_id": "finalprojectcs3714",
+    "storage_bucket": "finalprojectcs3714.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481512658030:android:2bef3fc45f4f6377",
+        "android_client_info": {
+          "package_name": "com.example.theedgefitness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "481512658030-48465uspq40hkr54jgcb6lhqn896ucpo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.theedgefitness",
+            "certificate_hash": "29e0dddbaea945c62fb56ead01f505bdc584e3c1"
+          }
+        },
+        {
+          "client_id": "481512658030-ems983gqmsss7qf4risprc24q9f3dksq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmr5hlPNWGFH7FYISxr9p9YSDXuj2nJkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481512658030-ems983gqmsss7qf4risprc24q9f3dksq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

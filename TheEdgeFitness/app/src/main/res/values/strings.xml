@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">The Edge Fitness At VT</string>
+    <string name="FITNESS">FITNESS</string>
+    <string name="email">EMAIL (@vt.edu):</string>
+    <string name="password">PASSWORD:</string>
+    <string name="signup">SIGNUP</string>
+    <string name="login">LOGIN</string>
+    <string name="AT">AT</string>
+    <string name="PROFILE">PROFILE</string>
+    <string name="confirm_password">CONFIRM PASSWORD:</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="PERSONAL_ATTRIBUTES">PERSONAL ATTRIBUTES</string>
+    <string name="first_name">FIRST NAME:</string>
+    <string name="last_name">LAST NAME:</string>
+    <string name="age">AGE:</string>
+    <string name="gender">GENDER:</string>
+    <string name="fitness_plan">FITNESS PLANS</string>
+    <string name="menu">MENU</string>
+    <string name="exercises">EXERCISES</string>
+    <string name="DIET_TRACKING">DIET TRACKING</string>
+    <string name="CALORIES">CALORIES</string>
+    <string name="WATER">WATER (fl. oz.)</string>
+    <string name="ENTER_CALORIES">ENTER CALORIES:</string>
+    <string name="ENTER_WATER">ENTER WATER (fl. oz.):</string>
+    <string name="ENTER">ENTER</string>
+    <string name="REPEATING_ACTIVITY">REPEATING ACTIVITY</string>
+    <string name="NEXT">>></string>
+    <string-array name="genders">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

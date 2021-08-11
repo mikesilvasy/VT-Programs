@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Burger App</string>
+    <string name="BunLabel">Bun:</string>
+    <string name="PattyLabel">Patty:</string>
+    <string name="ToppingsLabel">Toppings (Maximum of 3):</string>
+    <string name="sauteed_mushrooms">sauteed mushrooms</string>
+    <string name="lettuce">lettuce</string>
+    <string name="tomato">tomato</string>
+    <string name="pickles">pickles</string>
+    <string name="mayo">mayo</string>
+    <string name="mustard">mustard</string>
+    <string name="numBurgers">Number of Burgers (Only #s >0):</string>
+    <string-array name = "buns">
+        <item>choose one</item>
+        <item>white</item>
+        <item>wheat</item>
+    </string-array>
+    <string-array name = "patties">
+        <item>choose one</item>
+        <item>beef</item>
+        <item>grilled chicken</item>
+        <item>turkey</item>
+        <item>salmon</item>
+        <item>veggie</item>
+    </string-array>
+    <string name="CostLabel">Cost: $</string>
+    <string name="CaloriesLabel">Calories:  </string>
+    <string name="ENTER">ENTER</string>
+</resources>

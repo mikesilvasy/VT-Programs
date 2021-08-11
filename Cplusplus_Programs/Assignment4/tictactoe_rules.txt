@@ -1,0 +1,10 @@
+RULES OF TIC-TAC-TOE
+
+1) The game is played on a grid that's 3 squares by 3 squares.
+2) There are 2 players; the first player is X and the second player is O.
+   Players take turns putting their pieces in empty squares.
+3) The first player to get 3 of their pieces in a row (vertically, horizontally or diagonally) is the winner.
+4) When all 9 squares are full, the game is over.
+   If no player has 3 pieces in a row, the game is over and the result is a draw.
+
+These rules were gathered from www.exploratorium.edu/brain_explorer/tictactoe.html

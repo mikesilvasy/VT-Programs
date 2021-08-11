@@ -1,0 +1,10 @@
+6.1
+    a) Yes because the transmission control protocol (TCP) sends a response to the client (which includes the file) letting the client
+       know when the transfer is fully complete.
+    b) *DID NOT COMPLETE*
+
+6.2
+    *DID NOT COMPLETE*
+
+6.3
+    The "Protocols used" section is incorrect.  Quic uses user datagram protocol (UDP), and not transmission control protocol (TCP).

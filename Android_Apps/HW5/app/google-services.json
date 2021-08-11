@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1077707831715",
+    "firebase_url": "https://hw5-silvasym.firebaseio.com",
+    "project_id": "hw5-silvasym",
+    "storage_bucket": "hw5-silvasym.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077707831715:android:4bf4e6ca0cf52d15",
+        "android_client_info": {
+          "package_name": "com.example.hw5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1077707831715-2a9ie6fs1fv3is1uuqs7c0dti7djrsqq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hw5",
+            "certificate_hash": "29e0dddbaea945c62fb56ead01f505bdc584e3c1"
+          }
+        },
+        {
+          "client_id": "1077707831715-ad2gd8adjnnbrbaes8ogp6f7s60j0rr0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOa2NRtfpIyy0-JFBNpX4h64zDrrWqqb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1077707831715-ad2gd8adjnnbrbaes8ogp6f7s60j0rr0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

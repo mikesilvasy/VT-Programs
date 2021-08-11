@@ -1,0 +1,11 @@
+Lines to change:
+    1) Omit line 28 [pthread_mutex_unlock(&shutdown_lock);]
+    2) Omit line 30 [pthread_mutex_lock(&detective_lock);]
+    3) Change line 32 to [pthread_cond_wait(&cond, &shutdown_lock);] ==> Replace &detective_lock with &shutdown_lock
+    4) Omit line 35 [pthread_mutex_unlock(&detective_lock);]
+    5) Omit line 38 [pthread_mutex_lock(&shutdown_lock);]
+
+Reasoning:
+In the main method, pthread_cond_broadcast is called within the shutdown_lock, so the condition depends on shutdown_lock not detective_lock
+    (Line 32).  Since the condition does not depend on detective_lock, we can omit lines 30 and 35.  Lastly, we need to only lock
+    shutdown_lock once and wait for the condition to be met until we unlock it once again (omitting lines 28 and 38).

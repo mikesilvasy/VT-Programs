@@ -1,0 +1,8 @@
+Compulsory (Cold) - A compulsory miss will occur upon starting a program.  This miss is inevitable because data cannot be placed in
+                    the cache before traveling through the memory heirarchy.
+
+Conflict - A conflict miss will occur when two blocks map to the same block of memory.  Since only one block can take up that space, the
+           other block cannot be place in the cache.
+
+Capacity - A capacity miss will occur when the cache is smaller than a program's available blocks/pages (finite cache size).  Since the
+           cache is not of infinite size, some blocks of memory are removed and brought back at a later time.

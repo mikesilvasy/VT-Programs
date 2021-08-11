@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   tools:context=".OrderFragment" android:id="@+id/frameLayout">
+    <TextView
+            android:text="@string/zero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/orangeAmount"
+            android:layout_marginTop="56dp"
+            app:layout_constraintTop_toBottomOf="@+id/appleText" app:layout_constraintEnd_toStartOf="@+id/orangeMinus"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toEndOf="@+id/orangePlus"
+            android:layout_marginStart="8dp"/>
+    <Button
+            android:text="@string/minus"
+            android:layout_width="76dp"
+            android:layout_height="41dp"
+            android:id="@+id/orangeMinus" android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@+id/appleMinus" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="32dp"/>
+    <Button
+            android:text="@string/plus"
+            android:layout_width="76dp"
+            android:layout_height="41dp"
+            android:id="@+id/orangePlus" android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@+id/applePlus" app:layout_constraintStart_toEndOf="@+id/orangeText"
+            android:layout_marginStart="32dp"/>
+    <Button
+            android:text="@string/minus"
+            android:layout_width="76dp"
+            android:layout_height="41dp"
+            android:id="@+id/appleMinus" android:layout_marginTop="16dp"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="32dp"/>
+    <TextView
+            android:text="@string/appleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/appleText" android:layout_marginTop="24dp"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"/>
+    <Button
+            android:text="@string/plus"
+            android:layout_width="76dp"
+            android:layout_height="41dp"
+            android:id="@+id/applePlus" android:layout_marginTop="16dp"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toEndOf="@+id/appleText"
+            android:layout_marginStart="32dp"/>
+    <TextView
+            android:text="@string/orangeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/orangeText" android:layout_marginTop="56dp"
+            app:layout_constraintTop_toBottomOf="@+id/appleText" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"/>
+    <Button
+            android:text="@string/order"
+            android:layout_width="380dp"
+            android:layout_height="53dp"
+            android:id="@+id/order"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/orangePlus" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"/>
+    <TextView
+            android:text="@string/zero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/appleAmount" android:layout_marginTop="24dp"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toStartOf="@+id/appleMinus"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toEndOf="@+id/applePlus"
+            android:layout_marginStart="8dp"/>
+    <TextView
+            android:text="@string/wallet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/order" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

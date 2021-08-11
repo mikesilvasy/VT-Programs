@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1574298444 source:c:\users\silva\desktop\assignment3\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<list>
+	<cassert>
+	<stdexcept>
+	"Map.h"
+	"HashMap.h"
+
+1574229994 c:\users\silva\desktop\assignment3\map.h
+	<vector>
+	<utility>
+
+1574301692 c:\users\silva\desktop\assignment3\hashmap.h
+	<iostream>
+	<vector>
+	<utility>
+	<functional>
+	<exception>
+	<stdexcept>
+	<algorithm>
+	"Map.h"
+
